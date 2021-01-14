@@ -66,7 +66,6 @@ formEl.addEventListener("submit", async (e) => {
 
 searchEl.addEventListener("keyup", (e) => {
     if(searchEl.value === "") {
-        console.log({ kkk: "Note found" });
         //? Clear Field if search form is also cleared
         resultContainer.innerHTML = "";
     }
